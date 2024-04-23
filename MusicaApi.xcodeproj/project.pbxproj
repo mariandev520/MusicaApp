@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD825372BD8287100DB8F78 /* MusicaApi Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DAD825362BD8287100DB8F78 /* MusicaApi Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DAD8253C2BD8287100DB8F78 /* MusicaApiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD8253B2BD8287100DB8F78 /* MusicaApiApp.swift */; };
+		DAD8253E2BD8287100DB8F78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD8253D2BD8287100DB8F78 /* ContentView.swift */; };
+		DAD825402BD8287200DB8F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD8253F2BD8287200DB8F78 /* Assets.xcassets */; };
+		DAD825432BD8287200DB8F78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD825422BD8287200DB8F78 /* Preview Assets.xcassets */; };
+		DAD8254D2BD8287200DB8F78 /* MusicaApi_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD8254C2BD8287200DB8F78 /* MusicaApi_Watch_AppTests.swift */; };
+		DAD825572BD8287200DB8F78 /* MusicaApi_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD825562BD8287200DB8F78 /* MusicaApi_Watch_AppUITests.swift */; };
+		DAD825592BD8287200DB8F78 /* MusicaApi_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD825582BD8287200DB8F78 /* MusicaApi_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD825382BD8287100DB8F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD8252A2BD8287100DB8F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD825352BD8287100DB8F78;
+			remoteInfo = "MusicaApi Watch App";
+		};
+		DAD825492BD8287200DB8F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD8252A2BD8287100DB8F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD825352BD8287100DB8F78;
+			remoteInfo = "MusicaApi Watch App";
+		};
+		DAD825532BD8287200DB8F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD8252A2BD8287100DB8F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD825352BD8287100DB8F78;
+			remoteInfo = "MusicaApi Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAD8255F2BD8287200DB8F78 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DAD825372BD8287100DB8F78 /* MusicaApi Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DAD825302BD8287100DB8F78 /* MusicaApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicaApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD825362BD8287100DB8F78 /* MusicaApi Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MusicaApi Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD8253B2BD8287100DB8F78 /* MusicaApiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaApiApp.swift; sourceTree = "<group>"; };
+		DAD8253D2BD8287100DB8F78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		DAD8253F2BD8287200DB8F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD825422BD8287200DB8F78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAD825482BD8287200DB8F78 /* MusicaApi Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MusicaApi Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD8254C2BD8287200DB8F78 /* MusicaApi_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaApi_Watch_AppTests.swift; sourceTree = "<group>"; };
+		DAD825522BD8287200DB8F78 /* MusicaApi Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MusicaApi Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD825562BD8287200DB8F78 /* MusicaApi_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaApi_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		DAD825582BD8287200DB8F78 /* MusicaApi_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaApi_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD825332BD8287100DB8F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD825452BD8287200DB8F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD8254F2BD8287200DB8F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD825292BD8287100DB8F78 = {
+			isa = PBXGroup;
+			children = (
+				DAD8253A2BD8287100DB8F78 /* MusicaApi Watch App */,
+				DAD8254B2BD8287200DB8F78 /* MusicaApi Watch AppTests */,
+				DAD825552BD8287200DB8F78 /* MusicaApi Watch AppUITests */,
+				DAD825312BD8287100DB8F78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD825312BD8287100DB8F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD825302BD8287100DB8F78 /* MusicaApi.app */,
+				DAD825362BD8287100DB8F78 /* MusicaApi Watch App.app */,
+				DAD825482BD8287200DB8F78 /* MusicaApi Watch AppTests.xctest */,
+				DAD825522BD8287200DB8F78 /* MusicaApi Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD8253A2BD8287100DB8F78 /* MusicaApi Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DAD8253B2BD8287100DB8F78 /* MusicaApiApp.swift */,
+				DAD8253D2BD8287100DB8F78 /* ContentView.swift */,
+				DAD8253F2BD8287200DB8F78 /* Assets.xcassets */,
+				DAD825412BD8287200DB8F78 /* Preview Content */,
+			);
+			path = "MusicaApi Watch App";
+			sourceTree = "<group>";
+		};
+		DAD825412BD8287200DB8F78 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAD825422BD8287200DB8F78 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAD8254B2BD8287200DB8F78 /* MusicaApi Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD8254C2BD8287200DB8F78 /* MusicaApi_Watch_AppTests.swift */,
+			);
+			path = "MusicaApi Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DAD825552BD8287200DB8F78 /* MusicaApi Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD825562BD8287200DB8F78 /* MusicaApi_Watch_AppUITests.swift */,
+				DAD825582BD8287200DB8F78 /* MusicaApi_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "MusicaApi Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD8252F2BD8287100DB8F78 /* MusicaApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD825602BD8287200DB8F78 /* Build configuration list for PBXNativeTarget "MusicaApi" */;
+			buildPhases = (
+				DAD8252E2BD8287100DB8F78 /* Resources */,
+				DAD8255F2BD8287200DB8F78 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD825392BD8287100DB8F78 /* PBXTargetDependency */,
+			);
+			name = MusicaApi;
+			productName = MusicaApi;
+			productReference = DAD825302BD8287100DB8F78 /* MusicaApi.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DAD825352BD8287100DB8F78 /* MusicaApi Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD8255C2BD8287200DB8F78 /* Build configuration list for PBXNativeTarget "MusicaApi Watch App" */;
+			buildPhases = (
+				DAD825322BD8287100DB8F78 /* Sources */,
+				DAD825332BD8287100DB8F78 /* Frameworks */,
+				DAD825342BD8287100DB8F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MusicaApi Watch App";
+			productName = "MusicaApi Watch App";
+			productReference = DAD825362BD8287100DB8F78 /* MusicaApi Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD825472BD8287200DB8F78 /* MusicaApi Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD825632BD8287200DB8F78 /* Build configuration list for PBXNativeTarget "MusicaApi Watch AppTests" */;
+			buildPhases = (
+				DAD825442BD8287200DB8F78 /* Sources */,
+				DAD825452BD8287200DB8F78 /* Frameworks */,
+				DAD825462BD8287200DB8F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD8254A2BD8287200DB8F78 /* PBXTargetDependency */,
+			);
+			name = "MusicaApi Watch AppTests";
+			productName = "MusicaApi Watch AppTests";
+			productReference = DAD825482BD8287200DB8F78 /* MusicaApi Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD825512BD8287200DB8F78 /* MusicaApi Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD825662BD8287200DB8F78 /* Build configuration list for PBXNativeTarget "MusicaApi Watch AppUITests" */;
+			buildPhases = (
+				DAD8254E2BD8287200DB8F78 /* Sources */,
+				DAD8254F2BD8287200DB8F78 /* Frameworks */,
+				DAD825502BD8287200DB8F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD825542BD8287200DB8F78 /* PBXTargetDependency */,
+			);
+			name = "MusicaApi Watch AppUITests";
+			productName = "MusicaApi Watch AppUITests";
+			productReference = DAD825522BD8287200DB8F78 /* MusicaApi Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD8252A2BD8287100DB8F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DAD8252F2BD8287100DB8F78 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DAD825352BD8287100DB8F78 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DAD825472BD8287200DB8F78 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DAD825352BD8287100DB8F78;
+					};
+					DAD825512BD8287200DB8F78 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DAD825352BD8287100DB8F78;
+					};
+				};
+			};
+			buildConfigurationList = DAD8252D2BD8287100DB8F78 /* Build configuration list for PBXProject "MusicaApi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD825292BD8287100DB8F78;
+			productRefGroup = DAD825312BD8287100DB8F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD8252F2BD8287100DB8F78 /* MusicaApi */,
+				DAD825352BD8287100DB8F78 /* MusicaApi Watch App */,
+				DAD825472BD8287200DB8F78 /* MusicaApi Watch AppTests */,
+				DAD825512BD8287200DB8F78 /* MusicaApi Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD8252E2BD8287100DB8F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD825342BD8287100DB8F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD825432BD8287200DB8F78 /* Preview Assets.xcassets in Resources */,
+				DAD825402BD8287200DB8F78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD825462BD8287200DB8F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD825502BD8287200DB8F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD825322BD8287100DB8F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD8253E2BD8287100DB8F78 /* ContentView.swift in Sources */,
+				DAD8253C2BD8287100DB8F78 /* MusicaApiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD825442BD8287200DB8F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD8254D2BD8287200DB8F78 /* MusicaApi_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD8254E2BD8287200DB8F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD825572BD8287200DB8F78 /* MusicaApi_Watch_AppUITests.swift in Sources */,
+				DAD825592BD8287200DB8F78 /* MusicaApi_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD825392BD8287100DB8F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD825352BD8287100DB8F78 /* MusicaApi Watch App */;
+			targetProxy = DAD825382BD8287100DB8F78 /* PBXContainerItemProxy */;
+		};
+		DAD8254A2BD8287200DB8F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD825352BD8287100DB8F78 /* MusicaApi Watch App */;
+			targetProxy = DAD825492BD8287200DB8F78 /* PBXContainerItemProxy */;
+		};
+		DAD825542BD8287200DB8F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD825352BD8287100DB8F78 /* MusicaApi Watch App */;
+			targetProxy = DAD825532BD8287200DB8F78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAD8255A2BD8287200DB8F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAD8255B2BD8287200DB8F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DAD8255D2BD8287200DB8F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicaApi Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MusicaApi;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mariandev520.MusicaApi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		DAD8255E2BD8287200DB8F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicaApi Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MusicaApi;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mariandev520.MusicaApi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		DAD825612BD8287200DB8F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = MusicaApi;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mariandev520.MusicaApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAD825622BD8287200DB8F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = MusicaApi;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mariandev520.MusicaApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD825642BD8287200DB8F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariandev520.MusicaApi-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicaApi Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicaApi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		DAD825652BD8287200DB8F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariandev520.MusicaApi-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicaApi Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicaApi Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		DAD825672BD8287200DB8F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariandev520.MusicaApi-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MusicaApi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		DAD825682BD8287200DB8F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariandev520.MusicaApi-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MusicaApi Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD8252D2BD8287100DB8F78 /* Build configuration list for PBXProject "MusicaApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD8255A2BD8287200DB8F78 /* Debug */,
+				DAD8255B2BD8287200DB8F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD8255C2BD8287200DB8F78 /* Build configuration list for PBXNativeTarget "MusicaApi Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD8255D2BD8287200DB8F78 /* Debug */,
+				DAD8255E2BD8287200DB8F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD825602BD8287200DB8F78 /* Build configuration list for PBXNativeTarget "MusicaApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD825612BD8287200DB8F78 /* Debug */,
+				DAD825622BD8287200DB8F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD825632BD8287200DB8F78 /* Build configuration list for PBXNativeTarget "MusicaApi Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD825642BD8287200DB8F78 /* Debug */,
+				DAD825652BD8287200DB8F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD825662BD8287200DB8F78 /* Build configuration list for PBXNativeTarget "MusicaApi Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD825672BD8287200DB8F78 /* Debug */,
+				DAD825682BD8287200DB8F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD8252A2BD8287100DB8F78 /* Project object */;
+}
